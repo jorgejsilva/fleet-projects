@@ -30,7 +30,5 @@ helm:
   # Custom values that will be passed as values.yaml to the installation
   #values:
   #  replicas: 2
-  values:
-    replicaCount: 2
-    image:
-      tag: "1.0"
+  valuesFiles:
+    - values.yaml
