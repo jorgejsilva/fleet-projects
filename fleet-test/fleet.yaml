@@ -28,10 +28,10 @@ helm:
   timeoutSeconds: 0
 
   # Custom values that will be passed as values.yaml to the installation
-  values:
-    replicaCount: 3
-    image:
-      tag: "1.1"
+  #values:
+  #  replicaCount: 3
+  #  image:
+  #    tag: "1.1"
 
   valuesFiles:
     - nginx-test.yaml
