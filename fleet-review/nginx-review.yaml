@@ -9,7 +9,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: nginx-r.sti.ufpb.br
+    - host: nginx-rev.sti.ufpb.br
       paths:
         - path: /
           pathType: ImplementationSpecific
