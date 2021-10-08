@@ -33,5 +33,5 @@ helm:
   #  image:
   #    tag: "1.1"
 
-  valuesFiles:
-    - nginx-test.yaml
+  #valuesFiles:
+  #  - nginx-test.yaml
