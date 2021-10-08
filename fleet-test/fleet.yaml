@@ -32,3 +32,6 @@ helm:
     replicaCount: 3
     image:
       tag: "1.1"
+
+  valuesFiles:
+    - nginx-teste.yaml
