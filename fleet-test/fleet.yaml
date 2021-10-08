@@ -34,4 +34,4 @@ helm:
       tag: "1.1"
 
   valuesFiles:
-    - nginx-teste.yaml
+    - nginx-test.yaml
